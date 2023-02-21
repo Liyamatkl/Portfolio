@@ -4,17 +4,6 @@ import Cvstage from './../Cvstage.jpg'
 import { SocialIcon } from 'react-social-icons'
 
 
-const nav = document.querySelector(".nav");
-        let lastScrollY = window.scrollY;
-
-        window.addEventListener("scroll", () => {
-          if(lastScrollY < window.scrollY){
-            console.log("we are going down");
-          } else {
-            console.log("we are going up");
-          }
-        })
-
 const AboutMe = () => {
   return (
       <div className='body-background'>

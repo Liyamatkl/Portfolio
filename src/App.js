@@ -7,7 +7,6 @@ import { BrowserRouter,Routes, Route } from "react-router-dom";
 import Portfolio from './components/Project';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CourenLigne from './components/CourenLigne';
 import Damechinoise from './components/Damechinoise';
 
@@ -20,7 +19,7 @@ function App() {
         
       <Navbar />
     <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/myPortfolio" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />

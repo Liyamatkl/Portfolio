@@ -15,7 +15,7 @@ export const Navbar = () => {
     <div>
       
       <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <Link to="/" class="navbar-brand" href="/some/valid/uri"><img className="logo" src={logo} alt="logo.." /></Link>
+  <Link to="/myPortfolio" class="navbar-brand"><img className="logo" src={logo} alt="logo.." /></Link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <FontAwesomeIcon icon={faBars} style={{color: "white"}} />
   </button>
