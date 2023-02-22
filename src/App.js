@@ -17,15 +17,16 @@ function App() {
     <>
       <BrowserRouter>
         
-      <Navbar />
+        <Navbar />
+        
     <Routes>
         <Route path="/myPortfolio" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/fallingsnake" element={<FallingSnake />} />
-        <Route path="/coursenligne" element={<CourenLigne />} />
-        <Route path="/damechinoise" element={<Damechinoise />} />
+        <Route path="/portfolio/fallingsnake" element={<FallingSnake />} />
+        <Route path="/portfolio/coursenligne" element={<CourenLigne />} />
+        <Route path="/portfolio/damechinoise" element={<Damechinoise />} />
 
 
       </Routes>
