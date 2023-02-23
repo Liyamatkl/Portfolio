@@ -264,6 +264,10 @@ box-shadow: 5px 10px 20px 1px rgb(29, 120, 212);
 font-family: 'Unbounded', cursive;
 }
 
+/*Modal*/
+
+
+
 /********************** Project *********************/
 
 
@@ -627,9 +631,22 @@ body {
 }
 
 .paragraphe{
-  margin-left: 10%;
-  margin-top: 2%;
+  margin-left: 8%;
+  margin-top: 5%;
   font-weight: 40px;
+  position: absolute;
+}
+
+.paragraphe p{
+  margin-top: 1%;
+    margin-bottom: 10%;
+    font-weight: 500;
+
+}
+
+
+.paragraphe h2{
+  margin-bottom: 3%;
 
 }
 
@@ -767,3 +784,29 @@ body {
     margin-left: 41px;
 }
 
+/*Test slider*/
+
+.carousel{
+  display: flex;
+  justify-content: center;
+	margin: 0 auto;
+  max-width: 30rem;
+  margin-top: 5%;
+  right: 2%;
+  position: absolute;
+
+}
+
+.carousel img{
+  max-height: 30rem;
+}
+
+.carousel-cours{
+    display: flex;
+  justify-content: center;
+	margin: 0 auto;
+  max-width: 55rem;
+  margin-top: 5%;
+  right: 2%;  
+
+}

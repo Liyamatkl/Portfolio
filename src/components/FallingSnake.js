@@ -3,28 +3,49 @@ import React from 'react'
 import fallingsnake from './../fallingsnake.jpg'
 import fallingsnake2 from './../fallingsnake2.jpg'
 import fallingsnake3 from './../fallingsnake3.jpg'
-
+import { Link } from 'react-router-dom';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Carousel from 'react-bootstrap/Carousel';
 
 
 const FallingSnake = () => {
     return (
 		<div className='body-background'>
-			<a href='/portfolio' style={{color:"black", position:"fixed"}}><i class='bx bx-left-arrow-alt bx-flip-vertical bx-tada bx-lg' href="/projet"></i>	
-</a>
+			
+			<Link to='/portfolio' style={{color:"black", position:"fixed"}}><i class='bx bx-left-arrow-alt bx-flip-vertical bx-tada bx-lg' href="/projet"></i>	
+</Link>
             <div className="Body-general">                 
 
 				<h1>Falling snake 🐍</h1>
 
-            <section class="container" className='containerfalling'>
-	<div class="slider-wrapper">
-		<div class="sliderfalling">
-			<img id="slide-1" src={fallingsnake} />
-			<img id="slide-2" src={fallingsnake2} />
-			<img id="slide-3" src={fallingsnake3} />
-                        </div>
-                        
-
-					</div>
+				<Carousel className="carousel">
+      <Carousel.Item interval={1000}>
+        <img
+          className="d-block h-50"
+          src={fallingsnake}
+          alt="First slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item interval={500}>
+        <img
+          className="d-block   h-50"
+          src={fallingsnake2}
+          alt="Second slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block   h-50"
+          src={fallingsnake3}
+          alt="Third slide"
+        />
+        
+      </Carousel.Item>
+    </Carousel>
+            
 					<div className='paragraphe'>
 						<h2>Langage: Java</h2>
 						<div class="underline">
@@ -60,7 +81,6 @@ le joueur gagne)
 							
   </div>
 				</div>
-				</section>
             </div>
         </div>
         

@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import author from './../me.jpg'
 import Cvstage from './../Cvstage.jpg'
 import { SocialIcon } from 'react-social-icons'
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
+
+
 
 
 const AboutMe = () => {
+    const [show, setShow] = useState(false);
+
   return (
       <div className='body-background'>
       <div class="Body-general">    
@@ -38,7 +44,27 @@ const AboutMe = () => {
       </div>
       <div class="cv-div">
         <h1>MON CV 👇</h1>
-        <img src={Cvstage} alt='Liyam AIT OUAKLI' class="card-img-footer"></img>
+       
+        <>
+
+           <img onClick={() => setShow(true)} src={Cvstage} alt='Liyam AIT OUAKLI' class="card-img-footer"></img>
+
+      <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        dialogClassName="modal-90w"
+            aria-labelledby="example-custom-modal-styling-title"
+            size='lg'
+      >
+        <Modal.Header closeButton>
+          
+        </Modal.Header>
+        
+                     <img src={Cvstage} alt='Liyam AIT OUAKLI' ></img>
+
+        
+      </Modal>
+    </>
 
       </div>
        

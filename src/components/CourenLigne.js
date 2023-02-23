@@ -3,26 +3,54 @@ import courenligne from "./../projetlaravel.jpg"
 import courenligne2 from "./../projetlaravel2.jpg"
 import courenligne3 from "./../projetlaravel3.jpg"
 import courenligne4 from "./../projetlaravel4.jpg"
+import Carousel from 'react-bootstrap/Carousel';
+
+import { Link } from 'react-router-dom';
 
 
 const CourenLigne = () => {
   return (
     <div className='body-background'>
-			<a href='/portfolio' style={{color:"black", position:"fixed"}}><i class='bx bx-left-arrow-alt bx-flip-vertical bx-tada bx-lg' href="/projet"></i>	
-</a>
+			<Link to='/portfolio' style={{color:"black", position:"fixed"}}><i class='bx bx-left-arrow-alt bx-flip-vertical bx-tada bx-lg' href="/projet"></i>	
+</Link>
             <div className="Body-general">                 
 
 				<h1>Cours en Ligne®</h1>
 
-            <section class="container" className='containerfalling'>
-	<div class="slider-wrapper">
-		<div class="slider">
-			<img id="slide-1" src={courenligne} />
-			<img id="slide-2" src={courenligne2} />
-			<img id="slide-3" src={courenligne3} />
-			<img id="slide-4" src={courenligne4} />
-            
-                        </div>
+            <Carousel className="carousel-cours">
+      <Carousel.Item interval={1000}>
+        <img
+          className="d-block h-50"
+          src={courenligne}
+          alt="First slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item interval={500}>
+        <img
+          className="d-block   h-50"
+          src={courenligne2}
+          alt="Second slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block   h-50"
+          src={courenligne3}
+          alt="Third slide"
+        />
+        
+          </Carousel.Item>
+          <Carousel.Item>
+        <img
+          className="d-block   h-50"
+          src={courenligne4}
+          alt="Third slide"
+        />
+        
+      </Carousel.Item>
+    </Carousel>
          
 					</div>
 					<div className='paragraphe'>
@@ -54,9 +82,9 @@ Ce projet a eu une note de 17/20 durant la 2ème année de licence.<a href="http
 							
   </div>
 				</div>
-				</section>
+				
             </div>
-        </div>
+        
   )
 }
 

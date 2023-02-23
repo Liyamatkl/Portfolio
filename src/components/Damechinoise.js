@@ -1,25 +1,39 @@
 import React from 'react'
 import damechinoise from './../damechinoise.jpg'
 import damechinoise2 from './../damechinoise2.jpg'
+import { Link } from 'react-router-dom';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 const Damechinoise = () => {
   return (
 <div className='body-background'>
-			<a href='/portfolio' style={{color:"black", position:"fixed"}}><i class='bx bx-left-arrow-alt bx-flip-vertical bx-tada bx-lg' href="/projet"></i>	
-</a>
+			<Link to='/portfolio' style={{color:"black", position:"fixed"}}><i class='bx bx-left-arrow-alt bx-flip-vertical bx-tada bx-lg' href="/projet"></i>	
+</Link>
             <div className="Body-general">                 
 
 				<h1>Dame Chinoise ♟️</h1>
-
-            <section class="container" className='containerfalling'>
-	<div class="slider-wrapper">
-		<div class="sliderdame">
-			<img id="slide-1" src={damechinoise} />
-                          <img id="slide-2" src={damechinoise2} />
-                      </div>
                         
+			  <Carousel className="carousel-cours">
+      <Carousel.Item interval={1000}>
+        <img
+          className="d-block h-50"
+          src={damechinoise}
+          alt="First slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item interval={750}>
+        <img
+          className="d-block   h-50"
+          src={damechinoise2}
+          alt="Second slide"
+        />
+        
+      </Carousel.Item>
+      
+    </Carousel>
 		
-					</div>
 					<div className='paragraphe'>
 						<h2>Langage: Ocaml</h2>
 						<div class="underline">
@@ -38,7 +52,6 @@ Le vainqueur est le premier joueur à avoir amené la totalité de ses pions dan
 							
   </div>
 				</div>
-				</section>
             </div>
         </div>  )
 }
