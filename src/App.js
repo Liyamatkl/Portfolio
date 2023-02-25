@@ -9,6 +9,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import CourenLigne from './components/CourenLigne';
 import Damechinoise from './components/Damechinoise';
+import Thanks from './components/Thanks';
 
 
 
@@ -26,7 +27,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio/fallingsnake" element={<FallingSnake />} />
         <Route path="/portfolio/coursenligne" element={<CourenLigne />} />
-        <Route path="/portfolio/damechinoise" element={<Damechinoise />} />
+          <Route path="/portfolio/damechinoise" element={<Damechinoise />} />
+          <Route path="/thankU" element={<Thanks />} />
+
+          
 
 
       </Routes>

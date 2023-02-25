@@ -33,7 +33,8 @@ const Contact = () => {
     </div>
     <div class="submit">
       <input type="submit" value="Send Message" id="form_button" />
-    </div>
+            </div>
+            <input type="hidden" name="_next" value="https://liyamatkl.github.io/thankU/"></input>
   </form>
 </div>
 
