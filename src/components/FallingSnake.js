@@ -51,7 +51,7 @@ const FallingSnake = () => {
 						<div class="underline">
   </div>
 				<p>Falling Snakes est un jeu d'arcade qui se déroule sur une grille 2D de cases correspondant à un champ vertical vu par
-devant. Le champ contient des obstacles de diférent nature. Un serpent se déplace sur le champ et quand il arrive à la fin de
+devant. Le champ contient des obstacles de différentes natures. Un serpent se déplace sur-le-champ et quand il arrive à la fin de
 la grille, ou quand il rencontre un morceau de bois le serpent descend d’un niveau et change de direction.
 							<br></br>
 							<br></br>

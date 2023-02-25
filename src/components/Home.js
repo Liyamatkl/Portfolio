@@ -13,7 +13,7 @@ const Home = () => {
               <h1 >Je suis AIT OUAKLI Liyam</h1>
               <Typed
                   className="typed-text"
-                  strings={["Desing Web", "Développement Web", "JAVA", "Python", "C"]}
+                  strings={["Cybersécurié", "Développement Web", "JAVA", "Python", "C"]}
                   typeSpeed={30}
                   backSpeed={30}
                   loop
