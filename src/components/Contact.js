@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
@@ -34,7 +35,7 @@ const Contact = () => {
     <div class="submit">
       <input type="submit" value="Send Message" id="form_button" />
             </div>
-            <input type="hidden" name="_next" value="https://liyamatkl.github.io/thankU/"></input>
+            <Link><input type="hidden" name="_next" value="https://liyamatkl.github.io/thankU"></input></Link>
   </form>
 </div>
 
