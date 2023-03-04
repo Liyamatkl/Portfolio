@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import FallingSnake from './components/FallingSnake';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter,Routes, Route } from "react-router-dom";
+import { BrowserRouter,Routes, Route } from "react-router-dom";
 import Portfolio from './components/Project';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
@@ -16,7 +16,7 @@ import Thanks from './components/Thanks';
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         
         <Navbar />
         
@@ -34,7 +34,7 @@ function App() {
 
 
       </Routes>
-</HashRouter>
+</BrowserRouter>
       </>
   );
 }
