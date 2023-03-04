@@ -2,7 +2,7 @@
   "name": "myportfolio2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Liyamatkl.github.io/#/myPortfolio",
+  "homepage": "https://Liyamatkl.github.io/myPortfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
