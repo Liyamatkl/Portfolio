@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.3bd59619.css",
-    "main.js": "/myPortfolio/static/js/main.c8b09d36.js",
-    "static/js/787.f2d1e4a7.chunk.js": "/myPortfolio/static/js/787.f2d1e4a7.chunk.js",
-    "static/media/me.jpg": "/myPortfolio/static/media/me.8acb4ee99090a5b7ef3a.jpg",
-    "static/media/Cvstage.jpg": "/myPortfolio/static/media/Cvstage.9d2145c2d07debc9402d.jpg",
-    "static/media/damechinoise2.jpg": "/myPortfolio/static/media/damechinoise2.9aa9510a32e96918dbab.jpg",
-    "static/media/damechinoise.jpg": "/myPortfolio/static/media/damechinoise.4225c50fe7bb698ae98a.jpg",
-    "static/media/projetlaravel4.jpg": "/myPortfolio/static/media/projetlaravel4.e544b9e4f758578f21ee.jpg",
-    "static/media/projetlaravel3.jpg": "/myPortfolio/static/media/projetlaravel3.ad73308d537b6ca29a96.jpg",
-    "static/media/projetlaravel.jpg": "/myPortfolio/static/media/projetlaravel.8af702e54938cf4fdaa1.jpg",
-    "static/media/projetlaravel2.jpg": "/myPortfolio/static/media/projetlaravel2.2604781e9f65d1a3d984.jpg",
-    "static/media/fallingsnake3.jpg": "/myPortfolio/static/media/fallingsnake3.23485a899c5b3a190c66.jpg",
-    "static/media/fallingsnake2.jpg": "/myPortfolio/static/media/fallingsnake2.dcaf9cb82038d214f7ed.jpg",
-    "static/media/fallingsnake.jpg": "/myPortfolio/static/media/fallingsnake.05592481eb8a5e69ba4b.jpg",
-    "index.html": "/myPortfolio/index.html",
-    "main.3bd59619.css.map": "/myPortfolio/static/css/main.3bd59619.css.map",
-    "main.c8b09d36.js.map": "/myPortfolio/static/js/main.c8b09d36.js.map",
-    "787.f2d1e4a7.chunk.js.map": "/myPortfolio/static/js/787.f2d1e4a7.chunk.js.map"
+    "main.css": "/static/css/main.3bd59619.css",
+    "main.js": "/static/js/main.4b60218e.js",
+    "static/js/787.f2d1e4a7.chunk.js": "/static/js/787.f2d1e4a7.chunk.js",
+    "static/media/me.jpg": "/static/media/me.8acb4ee99090a5b7ef3a.jpg",
+    "static/media/Cvstage.jpg": "/static/media/Cvstage.9d2145c2d07debc9402d.jpg",
+    "static/media/damechinoise2.jpg": "/static/media/damechinoise2.9aa9510a32e96918dbab.jpg",
+    "static/media/damechinoise.jpg": "/static/media/damechinoise.4225c50fe7bb698ae98a.jpg",
+    "static/media/projetlaravel4.jpg": "/static/media/projetlaravel4.e544b9e4f758578f21ee.jpg",
+    "static/media/projetlaravel3.jpg": "/static/media/projetlaravel3.ad73308d537b6ca29a96.jpg",
+    "static/media/projetlaravel.jpg": "/static/media/projetlaravel.8af702e54938cf4fdaa1.jpg",
+    "static/media/projetlaravel2.jpg": "/static/media/projetlaravel2.2604781e9f65d1a3d984.jpg",
+    "static/media/fallingsnake3.jpg": "/static/media/fallingsnake3.23485a899c5b3a190c66.jpg",
+    "static/media/fallingsnake2.jpg": "/static/media/fallingsnake2.dcaf9cb82038d214f7ed.jpg",
+    "static/media/fallingsnake.jpg": "/static/media/fallingsnake.05592481eb8a5e69ba4b.jpg",
+    "index.html": "/index.html",
+    "main.3bd59619.css.map": "/static/css/main.3bd59619.css.map",
+    "main.4b60218e.js.map": "/static/js/main.4b60218e.js.map",
+    "787.f2d1e4a7.chunk.js.map": "/static/js/787.f2d1e4a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bd59619.css",
-    "static/js/main.c8b09d36.js"
+    "static/js/main.4b60218e.js"
   ]
 }
