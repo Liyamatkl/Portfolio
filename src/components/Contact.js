@@ -1,7 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 
 const Contact = () => {
+
+  const [gotoContact, setgotoContact] = useState(false);
+
+  if (gotoContact) {
+      return <Navigate to="/thankU" />
+  }
+
   return (
       <div className='body-background'>
      <div className="Body-general">  
@@ -33,9 +41,13 @@ const Contact = () => {
       <textarea name="message" placeholder="MESSAGE..." id="message_input" cols="30" rows="5" required></textarea>
     </div>
     <div class="submit">
-      <input type="submit" value="Send Message" id="form_button" />
+              <input type="submit" value="Send Message" id="form_button" onSubmit={() => {
+                setgotoContact(true);
+              }} />
+              <input type="hidden" name="_captcha" value="false"></input>
+
+
             </div>
-            <Link><input type="hidden" name="_next" value="https://liyamatkl.github.io/thankU"></input></Link>
   </form>
 </div>
 
