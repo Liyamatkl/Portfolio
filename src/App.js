@@ -16,7 +16,7 @@ import Thanks from './components/Thanks';
 function App() {
   return (
     <>
-      <BrowserRouter basename='/myPortfolio'>
+      <BrowserRouter >
         
         <Navbar />
         
