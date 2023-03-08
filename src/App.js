@@ -16,12 +16,12 @@ import Thanks from './components/Thanks';
 function App() {
   return (
     <>
-      <BrowserRouter  >
+      <BrowserRouter basename='/myPortfolio' >
         
         <Navbar />
         
     <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/myPortfolio" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
