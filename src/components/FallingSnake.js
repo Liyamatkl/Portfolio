@@ -47,9 +47,10 @@ const FallingSnake = () => {
     </Carousel>
             
 					<div className='paragraphe'>
-						<h2>Langage: Java</h2>
+						<h2>Langage: <paint>Java</paint></h2>
 						<div class="underline">
-  </div>
+            </div>
+            <div class='description'>
 				<p>Falling Snakes est un jeu d'arcade qui se déroule sur une grille 2D de cases correspondant à un champ vertical vu par
 devant. Le champ contient des obstacles de différentes natures. Un serpent se déplace sur-le-champ et quand il arrive à la fin de
 la grille, ou quand il rencontre un morceau de bois le serpent descend d’un niveau et change de direction.
@@ -75,7 +76,7 @@ Quand un projectile touche le serpent, un morceau est détruit, et le serpent de
 Le jeu se termine quand le serpent arrive au niveau inférieur (et le joueur perd), ou si le serpent est détruit (et
 le joueur gagne)
 <a href="https://github.com/Liyamatkl/Falling-Snake-Game" style={{faWeight:"bold", textDecoration:"none"}}	>👉Lien vers le code👈 </a></p>
-						
+						</div>
 						
 						<div class="underline">
 							

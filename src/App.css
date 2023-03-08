@@ -176,12 +176,14 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .About-Component img{
-  width: 17rem;
+  width: 18rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2rem;
   border-radius: 40%;
   padding: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .aboutme-info img{
@@ -190,11 +192,13 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   float: left;
   shape-outside: margin-box;
   margin: 0 20px 5px 0;
+  
 
 }
 
 .card img{
   width: 10rem;
+  
 
 }
 
@@ -221,8 +225,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .parag-plac:hover{
-  box-shadow: 5px 10px 20px 1px rgb(79, 68, 78);
-  transition: 1s;
+box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;  transition: 1s;
 
 }
 
@@ -285,6 +288,7 @@ box-shadow: 5px 10px 20px 1px rgb(29, 120, 212);
 .card-img-footer:hover{
   -webkit-filter: blur(0);
 	filter: blur(0);
+  cursor: pointer;
 }
 
 .cv-div{
@@ -408,7 +412,7 @@ body .containerportfolio .card .box .content h3 {
 
 body .containerportfolio .card .box .content p {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 700;
   color: rgba(255, 255, 255, 0.9);
   z-index: 1;
   transition: 0.5s;
@@ -425,6 +429,8 @@ body .containerportfolio .card .box .content a {
   margin-top: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
+    font-weight: 500;
+
 }
 body .containerportfolio .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
@@ -644,6 +650,11 @@ textarea {
   }
 }
 
+.Form-contact:hover{
+  transition: 0.5s;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
 
 /********************** FALING SNAKE *********************/
 
@@ -674,12 +685,14 @@ body {
   margin-top: 1%;
     margin-bottom: 10%;
     font-weight: 500;
+    font-size: 18px;
 
 }
 
 
 .paragraphe h2{
   margin-bottom: 1rem;
+  font-weight: 800;
 
 }
 
@@ -842,4 +855,16 @@ body {
   margin-top: 5%;
   right: 2%;  
 
+}
+
+.description{
+  background-color: #010e29f4;
+  color: #fff;
+  border-radius: 15%;
+  margin-right: 10%;
+box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;  padding: 4rem;
+}
+
+paint {
+  color: rgba(255, 0, 0, 0.457);
 }

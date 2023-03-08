@@ -35,9 +35,11 @@ const Damechinoise = () => {
     </Carousel>
 		
 					<div className='paragraphe'>
-						<h2>Langage: Ocaml</h2>
+						<h2>Langage: <paint>Ocaml</paint></h2>
 						<div class="underline">
-  </div>
+          </div>
+                      <div class='description'>
+
 				<p>Le jeu Dame Chinoise est un mini projet reproduisant le jeu dans sa forme originelle.
 Une interface graphique est mise à disposition afin d'avoir une meilleure experience 
 de jeu. Le jeu peut accueillir jusqu'à 6 joueurs, à chaque fois qu'un joueur place
@@ -47,7 +49,7 @@ Le vainqueur est le premier joueur à avoir amené la totalité de ses pions dan
 
 <a href="https://github.com/Liyamatkl/Chineese-Checkers" style={{faWeight:"bold", textDecoration:"none"}}	>👉Lien vers le code👈 </a></p>
 						
-						
+						</div>
 						<div class="underline">
 							
   </div>

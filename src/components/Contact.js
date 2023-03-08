@@ -15,7 +15,7 @@ const Contact = () => {
      <div className="Body-general">  
         
     
-<div id="container">
+<div id="container" className='Form-contact'>
   <h1>&bull; CONTACTEZ MOI &bull;👇</h1>
   <div class="underline">
   </div>

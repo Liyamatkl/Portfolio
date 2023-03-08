@@ -15,7 +15,7 @@ export const Navbar = () => {
     <div>
       
       <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <Link to="/myPortfolio" class="navbar-brand"><img className="logo" src={logo} alt="logo.." /></Link>
+  <Link to="/" class="navbar-brand"><img className="logo" src={logo} alt="logo.." /></Link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <FontAwesomeIcon icon={faBars} style={{color: "white"}} />
   </button>
@@ -23,7 +23,7 @@ export const Navbar = () => {
   <div className="collapse navbar-collapse " id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <Link className="nav-link" to="/myPortfolio">Home </Link>
+        <Link className="nav-link" to="/">Home </Link>
       </li>
       <li className="nav-item active">
         <Link className="nav-link" to="/about">About me </Link>

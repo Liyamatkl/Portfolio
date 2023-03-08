@@ -54,9 +54,11 @@ const CourenLigne = () => {
          
 					</div>
 					<div className='paragraphe'>
-						<h2>Langage: PHP, Laravel</h2>
+						<h2>Langage: <paint>PHP, Laravel</paint></h2>
 						<div class="underline">
-  </div>
+        </div>
+                    <div class='description'>
+
 				<p>Le projet COURS EN LIGNE® est une application web résumant les principaux aspects du 
 backend d'une application basique. C'est donc une plateforme avec une interface Admin,
 Enseignant et Gestionnaire. De multiples actions peuvent être réalisées comme:
@@ -77,7 +79,7 @@ Enseignant et Gestionnaire. De multiples actions peuvent être réalisées comme
 De nombreuse autres actions en lien avec la base de données peuvent être réalisées...<br></br>
 Ce projet a eu une note de 17/20 durant la 2ème année de licence.<a href="https://github.com/Liyamatkl/Cours-en-Ligne-" style={{faWeight:"bold", textDecoration:"none"}}	>👉Lien vers le code👈 </a></p>
 						
-						
+						</div>
 						<div class="underline">
 							
   </div>
